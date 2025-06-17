@@ -1,5 +1,5 @@
 "scripts": {
-  "postinstall": "npm install --legacy-peer-deps",
+  "postinstall": "npm install --force",
   "dev": "vite",
   "build": "vite build",
   "preview": "vite preview"
