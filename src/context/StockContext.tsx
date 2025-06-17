@@ -107,7 +107,7 @@ interface StockContextType {
 const StockContext = createContext<StockContextType | undefined>(undefined);
 
 // Configure API URL based on environment
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://stockpredicts-backend0.onrender.com';
 
 export function StockProvider({ children }: { children: ReactNode }) {
   const [stockData, setStockData] = useState<StockData | null>(null);
